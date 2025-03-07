@@ -1,0 +1,24 @@
+U.S. Census Bureau
+Historical Median Monthly Rents in the U.S. iPropertyManagement, 2024.
+https://ipropertymanagement.com/research/median-rent-in-the-us.
+
+U.S. Bureau of Labor Statistics
+Consumer Price Index Inflation Adjustments. U.S. Department of Labor, 2024.
+https://www.bls.gov/cpi/.
+
+Zillow Research
+Colorado Rental Market Trends. Zillow, 2024.
+https://www.zillow.com/research/data/.
+
+City of Denver Open Data
+Rental Market Reports for Denver, CO. City of Denver, 2024.
+https://www.denvergov.org/opendata.
+
+Colorado Association of Realtors
+Housing and Rental Affordability in Colorado. 2024.
+https://www.coloradorealtors.com/housing-data/.
+
+National Low Income Housing Coalition
+Out of Reach: The High Cost of Housing in Colorado. 2024.
+https://nlihc.org/oor.
+

@@ -4,28 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rent Affordability Map</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <!-- Leaflet.js Map Library -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <h1>Colorado Rent Affordability Map</h1>
-    
-    <form id="rent-form">
-        <label for="income">Enter Your Expected Salary ($):</label>
-        <input type="number" id="income" required>
-        <button type="submit">Calculate</button>
-    </form>
 
-    <h2>Affordable Rent Calculation:</h2>
-    <p id="rent-result"></p>
+    <header>
+        <h1>Colorado Rent Affordability Calculator</h1>
+    </header>
 
-    <h2>Historical Affordable Areas (Inflation-Adjusted)</h2>
-    <div id="historical-map"></div>
+    <main>
+        <section id="input-section">
+            <h2>Calculate Your Rent Affordability</h2>
+            <form id="rent-form">
+                <label for="income">Enter Your Expected Salary ($):</label>
+                <input type="number" id="income" placeholder="e.g., 50000" required>
 
-    <h2>Modern Affordable Areas</h2>
-    <div id="modern-map"></div>
+                <label for="decade">Select a Decade for Inflation Adjustment:</label>
+                <select id="decade">
+                    <option value="2025">2025 (No Adjustment)</option>
+                    <option value="2010">2010</option>
+                    <option value="2000">2000</option>
+                    <option value="1990">1990</option>
+                    <option value="1980">1980</option>
+                    <option value="1970">1970</option>
+                    <option value="1960">1960</option>
+                    <option value="1950">1950</option>
+                </select>
 
+                <button type="submit">Calculate</button>
+            </form>
+        </section>
+
+        <section id="results-section">
+            <h2>Affordable Rent Calculation:</h2>
+            <p id="rent-result">Enter your salary and select a decade to see results.</p>
+            <p id="inflated-rent-result"></p>
+        </section>
+        
+
+        <section id="maps-section">
+            <h2>Historical Affordable Areas (Inflation-Adjusted)</h2>
+            <div id="historical-map"></div>
+
+            <h2>Modern Affordable Areas</h2>
+            <div id="modern-map"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Colorado Rent Affordability Project</p>
+    </footer>
+
+    <!-- Custom JavaScript -->
     <script src="scripts/script.js"></script>
+
 </body>
 </html>
