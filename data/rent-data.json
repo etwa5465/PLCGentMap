@@ -1,0 +1,14 @@
+{
+    "historical": [
+        {"neighborhood": "Five Points (Denver)", "median_rent": 800, "latitude": 39.7562, "longitude": -104.9867},
+        {"neighborhood": "Capitol Hill (Denver)", "median_rent": 650, "latitude": 39.7340, "longitude": -104.9826},
+        {"neighborhood": "Boulder", "median_rent": 1000, "latitude": 40.0150, "longitude": -105.2705},
+        {"neighborhood": "Colorado Springs", "median_rent": 700, "latitude": 38.8339, "longitude": -104.8214}
+    ],
+    "modern": [
+        {"neighborhood": "Five Points (Denver)", "median_rent": 1900, "latitude": 39.7562, "longitude": -104.9867},
+        {"neighborhood": "Capitol Hill (Denver)", "median_rent": 1500, "latitude": 39.7340, "longitude": -104.9826},
+        {"neighborhood": "Boulder", "median_rent": 2200, "latitude": 40.0150, "longitude": -105.2705},
+        {"neighborhood": "Colorado Springs", "median_rent": 1400, "latitude": 38.8339, "longitude": -104.8214}
+    ]
+}
