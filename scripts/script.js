@@ -13,7 +13,7 @@ document.getElementById("rent-form").addEventListener("submit", function(event) 
 
     // Inflation Factors (Relative to 2024)
     const inflationFactors = {
-        "2024": 1.00,
+        "2025": 1.00,
         "2010": 1.29,
         "2000": 1.66,
         "1990": 2.27,
@@ -31,7 +31,7 @@ document.getElementById("rent-form").addEventListener("submit", function(event) 
 
     // Display Results
     document.getElementById("rent-result").innerText = 
-        `💰 Unadjusted Affordable Rent (2024 Dollars): $${maxRent.toFixed(2)} per month`;
+        `💰 Unadjusted Affordable Rent (2025 Dollars): $${maxRent.toFixed(2)} per month`;
 
     document.getElementById("inflated-rent-result").innerText = 
         `📉 Inflation-Adjusted Affordable Rent (for ${selectedDecade} prices): $${maxRentInflated.toFixed(2)} per month`;
